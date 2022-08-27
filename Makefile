@@ -1,4 +1,7 @@
-all: xdg.c xdg.h
+run: client
+	./client
+
+client: xdg.c xdg.h
 	cc wl.c xdg.c -lwayland-client -o client
 
 xdg.c:
