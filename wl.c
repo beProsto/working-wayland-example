@@ -1,3 +1,7 @@
+//
+// Somehow not falling apart (yet) extended example from https://wayland-book.com/xdg-shell-basics/example-code.html
+//
+
 #define _POSIX_C_SOURCE 200112L
 #include <errno.h>
 #include <fcntl.h>
